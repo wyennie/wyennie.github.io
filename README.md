@@ -7,3 +7,4 @@ Ruby, JavaScript, Node.js, jQuery, SQL
 Launch School (2021-2022) - mastery based learning, mastering fundementals of web development
 
 ## Projects ##
+Stuff
