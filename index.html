@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -13,7 +14,7 @@
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>William Yennie</strong><br>
-            I'm a software engineer currently based in Long Island, New York with proficiency in Node/JavaScript, Ruby, Golang, PostgreSQL, MongoDB, Docker, Terraform, and various AWS services . I have a passion for solving problems, learning new things, and making the world a better place. Recently I worked on an open-source project, Firefly, an observability framework for serverless functions.</h1>
+            I'm a software engineer currently based in Long Island, New York with proficiency in JavaScript, React, Ruby, Golang, PostgreSQL, MongoDB, Docker, Terraform, and various AWS services . I have a passion for solving problems, learning new things, and making the world a better place. Recently I co-created Firefly, an open-source observability framework for serverless functions.</h1>
 				</div>
 			</header>
 
@@ -24,39 +25,137 @@
 					<section id="one">
 						<header class="major">
               <div>
+                <a href="https://try-firefly.github.io/" >
                   <img class="image img fit logo" src="images/ff.png" alt="" />
+                </a>
               </div>
 							<h2>Observability for serverless functions</h2>
 						</header>
-						<p>Firefly is an open-source observability framework, it provides an overview of serverless function health via metrics and traces.</p>
+						<p>Firefly is an open-source observability framework, it provides an overview of serverless function health via metrics and traces. Firefly provides automated instrumentation and deployment of a telemetry pipeline, and displays relevant data in easy to use dashboards.</p>
             <a href="https://try-firefly.github.io/">
               <article class="col-6 col-12-xsmall work-item">
-                <img src="images/fulls/complete-observability.png" class="image img fit" />
+                <img src="images/fulls/firefly-architecture.png" class="image img fit" />
               </article>
             </a>
+            We designed Firefly for small teams that needed observability for their serverless functions, but didn't want to commit to a full on SaaS solution. We tried to strike a balance between the ease of use of an SaaS solution and the low cost of a DIY solution. Read our case study for a more in depth look at Firefly!
             <ul class="actions">
 							<li><a href="https://try-firefly.github.io/" class="button">Case Study</a></li>
 						</ul>
+            <div class="inner">
+              <h3>Technologies:</h3>
+              <ul class="icons brands">
+                <li>
+                  <a href="https://www.javascript.com/">
+                    <img height="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <p>JavaScript</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.docker.com/">
+                    <img height="65" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+                    <p>Docker</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.terraform.io/">
+                    <img height="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" />
+                    <p>Terraform</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://grafana.com/">
+                    <img height="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" />
+                    <p>Grafana</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://aws.amazon.com/lambda/">
+                    <img height="45" src="images/thumbs/aws-lambda-color.512x512.png" />
+                    <p>AWS Lambda</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.timescale.com/">
+                    <img height="45" src="images/thumbs/timescaledb.png" />
+                    <p>Timescaledb</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://opentelemetry.io/">
+                    <img height="50" src="images/thumbs/opentelemetry-icon-color.png" />
+                    <p>OpenTelemetry</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
 					</section>
 
 				<!-- Other Works -->
 					<section id="two">
-						<h2>Recent Work</h2>
+						<h2>Other Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<img class="image fit thumb" src="images/thumbs/Screenshot from 2023-01-02 15-19-05.png" alt="" />
 								<h3>Gouda Request</h3>
-								<p>Application for viewing and analyzing web hooks (Node.js, Express, Handlebars, Ngrok, PostgreSQL).</p>
+								<p>Application for viewing and analyzing web hooks (Node.js, Express, Handlebars, Nginx, PostgreSQL).</p>
+                <div class="inner">
+                  <ul class="icons">
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg">
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg">
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                    </li>
+                  </ul>
+                </div>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<img class="image fit thumb" src="images/thumbs/airline_routes.png" alt="" />
 								<h3>Airline Routes</h3>
 								<p>Tracks flight paths from airport to airport (React, Node.js, Express, MongoDB).</p>
+                <div class="inner">
+                  <ul class="icons">
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                    </li>
+                  </ul>
+                </div>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<img class="image fit thumb" src="images/thumbs/todo_list.png" alt="" />
 								<h3>Todo List</h3>
-								<p>Application for creating and tracking customized todo-lists (Ruby, Sinatra, ERB).</p>
+								<p>Application for creating and tracking customized todo-lists (Ruby, Sinatra, PostgreSQL, ERB).</p>
+                <div class="inner">
+                  <ul class="icons">
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    </li>
+                    <li>
+                      <iconify-icon height="30" icon="logos:sinatra"></iconify-icon>
+                    </li>
+                    <li>
+                      <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                    </li>
+                  </ul>
+                </div>
 							</article>
 						</div>
 					</section>
