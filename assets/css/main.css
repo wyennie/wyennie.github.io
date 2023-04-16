@@ -2211,6 +2211,7 @@ input, select, textarea {
 /* Labeled Icons */
 
 	ul.labeled-icons {
+    display: flex;
 		list-style: none;
 		padding: 0;
 	}
@@ -2218,13 +2219,14 @@ input, select, textarea {
 		ul.labeled-icons li {
 			line-height: 1.75em;
 			margin: 1.5em 0 0 0;
-			padding-left: 2.25em;
+			padding-left: 10%;
+      padding-right: 15%;
 			position: relative;
 		}
 
-			ul.labeled-icons li:first-child {
+			/* ul.labeled-icons li:first-child {
 				margin-top: 0;
-			}
+			} */
 
 			ul.labeled-icons li a {
 				color: inherit;
